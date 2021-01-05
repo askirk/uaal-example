@@ -1,12 +1,12 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/akirk1/uaal-example/UnityProject/androidBuild/unityLibrary/src/main/AndroidManifest.xml:2:1-27:12
-INJECTED from /Users/akirk1/uaal-example/UnityProject/androidBuild/unityLibrary/src/main/AndroidManifest.xml:2:1-27:12
-INJECTED from /Users/akirk1/uaal-example/UnityProject/androidBuild/unityLibrary/src/main/AndroidManifest.xml:2:1-27:12
-INJECTED from /Users/akirk1/uaal-example/UnityProject/androidBuild/unityLibrary/src/main/AndroidManifest.xml:2:1-27:12
-INJECTED from /Users/akirk1/uaal-example/UnityProject/androidBuild/unityLibrary/src/main/AndroidManifest.xml:2:1-27:12
-INJECTED from /Users/akirk1/uaal-example/UnityProject/androidBuild/unityLibrary/src/main/AndroidManifest.xml:2:1-27:12
-INJECTED from /Users/akirk1/uaal-example/UnityProject/androidBuild/unityLibrary/src/main/AndroidManifest.xml:2:1-27:12
+ADDED from /Users/akirk1/uaal-example/UnityProject/androidBuild/unityLibrary/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /Users/akirk1/uaal-example/UnityProject/androidBuild/unityLibrary/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /Users/akirk1/uaal-example/UnityProject/androidBuild/unityLibrary/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /Users/akirk1/uaal-example/UnityProject/androidBuild/unityLibrary/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /Users/akirk1/uaal-example/UnityProject/androidBuild/unityLibrary/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /Users/akirk1/uaal-example/UnityProject/androidBuild/unityLibrary/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /Users/akirk1/uaal-example/UnityProject/androidBuild/unityLibrary/src/main/AndroidManifest.xml:2:1-28:12
 	package
 		ADDED from /Users/akirk1/uaal-example/UnityProject/androidBuild/unityLibrary/src/main/AndroidManifest.xml:2:70-98
 		INJECTED from /Users/akirk1/uaal-example/UnityProject/androidBuild/unityLibrary/src/main/AndroidManifest.xml
@@ -155,6 +155,10 @@ ADDED from /Users/akirk1/uaal-example/UnityProject/androidBuild/unityLibrary/src
 		ADDED from /Users/akirk1/uaal-example/UnityProject/androidBuild/unityLibrary/src/main/AndroidManifest.xml:26:64-88
 	android:name
 		ADDED from /Users/akirk1/uaal-example/UnityProject/androidBuild/unityLibrary/src/main/AndroidManifest.xml:26:17-63
+uses-permission#android.permission.INTERNET
+ADDED from /Users/akirk1/uaal-example/UnityProject/androidBuild/unityLibrary/src/main/AndroidManifest.xml:27:3-65
+	android:name
+		ADDED from /Users/akirk1/uaal-example/UnityProject/androidBuild/unityLibrary/src/main/AndroidManifest.xml:27:20-62
 uses-sdk
 INJECTED from /Users/akirk1/uaal-example/UnityProject/androidBuild/unityLibrary/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/akirk1/uaal-example/UnityProject/androidBuild/unityLibrary/src/main/AndroidManifest.xml

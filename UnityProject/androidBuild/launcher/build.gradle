@@ -7,7 +7,7 @@ dependencies {
     }
 
 android {
-    compileSdkVersion 29
+    compileSdkVersion 28
     buildToolsVersion '28.0.3'
 
     compileOptions {
@@ -17,17 +17,17 @@ android {
 
     defaultConfig {
         minSdkVersion 19
-        targetSdkVersion 29
+        targetSdkVersion 28
         applicationId 'com.DefaultCompany.DemoVizLib'
         ndk {
-            abiFilters 'armeabi-v7a'
+            abiFilters 'armeabi-v7a', 'arm64-v8a'
         }
         versionCode 1
         versionName '0.1'
     }
 
     aaptOptions {
-        noCompress = ['.unity3d', '.ress', '.resource', '.obb', 'visionlib/examples/cameracalibration/cameracalibration.vl', 'visionlib/examples/imagerecorder/hololensimagerecorder.vl', 'visionlib/examples/imagerecorder/imagerecorder.vl', 'visionlib/examples/modeltracking/advancedmodeltracking.vl', 'visionlib/examples/modeltracking/car.vl', 'visionlib/examples/modeltracking/carautoinit.vl', 'visionlib/examples/modeltracking/carhololens.vl', 'visionlib/examples/modeltracking/changemodeluri.vl', 'visionlib/examples/modeltracking/multimodeltracking.vl', 'visionlib/examples/modeltracking/vlcaravan.obj', 'visionlib/examples/modeltracking/vlminicar.obj', 'visionlib/examples/modeltracking/vlsportscar.obj', 'visionlib/examples/modeltracking/dynamicmodeltracking/hololens_noobject.vl', 'visionlib/examples/modeltracking/dynamicmodeltracking/noobject.vl', 'visionlib/examples/modeltracking/mutablemodeltracking/piece000.obj', 'visionlib/examples/modeltracking/mutablemodeltracking/piece001.obj', 'visionlib/examples/modeltracking/mutablemodeltracking/piece002.obj', 'visionlib/examples/modeltracking/mutablemodeltracking/piece003.obj', 'visionlib/examples/modeltracking/mutablemodeltracking/pieces.vl', 'visionlib/examples/postertracking/hololenspostertracker.vl', 'visionlib/examples/postertracking/leaves.png', 'visionlib/examples/postertracking/postertracker.vl']
+        noCompress = ['.unity3d', '.ress', '.resource', '.obb', 'visionlib/examples/cameracalibration/cameracalibration.vl', 'visionlib/examples/imagerecorder/hololensimagerecorder.vl', 'visionlib/examples/imagerecorder/imagerecorder.vl', 'visionlib/examples/modeltracking/advancedmodeltracking.vl', 'visionlib/examples/modeltracking/changemodeluri.vl', 'visionlib/examples/modeltracking/multimodeltracking.vl', 'visionlib/examples/modeltracking/vlcaravan.obj', 'visionlib/examples/modeltracking/vlminicar.obj', 'visionlib/examples/modeltracking/vlsportscar.obj', 'visionlib/examples/modeltracking/car.vl', 'visionlib/examples/modeltracking/carautoinit.vl', 'visionlib/examples/modeltracking/carhololens.vl', 'visionlib/examples/modeltracking/dynamicmodeltracking/hololens_noobject.vl', 'visionlib/examples/modeltracking/dynamicmodeltracking/noobject.vl', 'visionlib/examples/modeltracking/mutablemodeltracking/piece000.obj', 'visionlib/examples/modeltracking/mutablemodeltracking/piece001.obj', 'visionlib/examples/modeltracking/mutablemodeltracking/piece002.obj', 'visionlib/examples/modeltracking/mutablemodeltracking/piece003.obj', 'visionlib/examples/modeltracking/mutablemodeltracking/pieces.vl', 'visionlib/examples/postertracking/hololenspostertracker.vl', 'visionlib/examples/postertracking/leaves.png', 'visionlib/examples/postertracking/postertracker.vl']
         ignoreAssetsPattern = "!.svn:!.git:!.ds_store:!*.scc:.*:!CVS:!thumbs.db:!picasa.ini:!*~"
     }
 
@@ -53,6 +53,7 @@ android {
 
     packagingOptions {
         doNotStrip '*/armeabi-v7a/*.so'
+        doNotStrip '*/arm64-v8a/*.so'
     }
 
     bundle {

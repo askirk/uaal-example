@@ -5,9 +5,9 @@ apply plugin: 'com.android.library'
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation(name: 'arcore_client', ext:'aar')
     implementation(name: 'google_ar_optional', ext:'aar')
     implementation(name: 'vlsdk', ext:'aar')
-    implementation(name: 'arcore_client', ext:'aar')
 }
 
 android {
@@ -23,7 +23,7 @@ android {
         minSdkVersion 21
         targetSdkVersion 29
         ndk {
-            abiFilters 'armeabi-v7a'
+            abiFilters 'armeabi-v7a', 'arm64-v8a'
         }
         versionCode 1
         versionName '0.1'
@@ -40,6 +40,7 @@ android {
 
     packagingOptions {
         doNotStrip '*/armeabi-v7a/*.so'
+        doNotStrip '*/arm64-v8a/*.so'
     }
 }
 

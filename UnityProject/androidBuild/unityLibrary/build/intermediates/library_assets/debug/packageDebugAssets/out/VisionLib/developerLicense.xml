@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<licenses>
+ <license expiredate="30.04.2021" name="Vision" version="2.00" zkey="kwADAgAUkrtttv3pUc+xFsBmHWE1188f15sAFMY7AAfomzY7UwCFas/IVVbYjCFw">
+  <comment>Created by hwuest</comment>
+  <user>
+   <organization>Red Bull</organization>
+   <street>1740 Stewart St</street>
+   <city>Santa Monica</city>
+   <country>US</country>
+   <contact>developer@redbull.tv</contact>
+  </user>
+  <hosts>
+   <host id="jeczDRYv21Md6VYgoyBQFZMgE3U=" name="Raffi" type="seat"/>
+   <host id="L8Ja5iAuEshsDfsoKfJS/fz7WO4=" name="Teal" type="seat"/>
+   <host id="4Mk2gRhuGjrV3YhUgVRwLFizY9Q=" name="devPC" type="runtime"/>
+  </hosts>
+  <features>
+   <feature name="ANY"/>
+   <feature name="licenseType" value="pocSDK"/>
+   <feature name="feature:NumberOfStartsPerDeployment" value="0"/>
+   <feature name="feature:AllowUnlimitedModels"/>
+   <feature name="feature:AllowUnregisteredModels"/>
+   <feature name="feature:AllowDeviceiOS"/>
+   <feature name="feature:AllowDeviceAndroid"/>
+   <feature name="feature:AllowDeviceWindows"/>
+   <feature name="feature:AllowDeviceMacOS"/>
+   <feature name="feature:AllowDeviceUWP"/>
+   <feature name="feature:AllowDeviceHoloLens"/>
+   <feature name="featureBundle:Basic"/>
+  </features>
+ </license>
+</licenses>

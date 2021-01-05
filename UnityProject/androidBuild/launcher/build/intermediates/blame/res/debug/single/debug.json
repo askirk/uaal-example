@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "/Users/akirk1/uaal-example/UnityProject/androidBuild/launcher/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_background.png.flat",
+        "source": "/Users/akirk1/uaal-example/UnityProject/androidBuild/launcher/src/main/res/mipmap-mdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "/Users/akirk1/uaal-example/UnityProject/androidBuild/launcher/build/intermediates/res/merged/debug/mipmap-mdpi_app_icon.png.flat",
+        "source": "/Users/akirk1/uaal-example/UnityProject/androidBuild/launcher/src/main/res/mipmap-mdpi/app_icon.png"
+    },
+    {
+        "merged": "/Users/akirk1/uaal-example/UnityProject/androidBuild/launcher/build/intermediates/res/merged/debug/layout___arcore_education.xml.flat",
+        "source": "/Users/akirk1/.gradle/caches/transforms-2/files-2.1/f1304d423df4ae5fdcfe345cfe3ca437/res/layout/__arcore_education.xml"
+    },
+    {
+        "merged": "/Users/akirk1/uaal-example/UnityProject/androidBuild/launcher/build/intermediates/res/merged/debug/mipmap-anydpi-v26_app_icon.xml.flat",
+        "source": "/Users/akirk1/uaal-example/UnityProject/androidBuild/launcher/src/main/res/mipmap-anydpi-v26/app_icon.xml"
+    },
+    {
+        "merged": "/Users/akirk1/uaal-example/UnityProject/androidBuild/launcher/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/akirk1/uaal-example/UnityProject/androidBuild/launcher/src/main/res/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/akirk1/uaal-example/UnityProject/androidBuild/launcher/build/intermediates/res/merged/debug/mipmap-anydpi-v26_app_icon_round.xml.flat",
+        "source": "/Users/akirk1/uaal-example/UnityProject/androidBuild/launcher/src/main/res/mipmap-anydpi-v26/app_icon_round.xml"
+    },
+    {
+        "merged": "/Users/akirk1/uaal-example/UnityProject/androidBuild/launcher/build/intermediates/res/merged/debug/raw_keep_arcore.xml.flat",
+        "source": "/Users/akirk1/.gradle/caches/transforms-2/files-2.1/f1304d423df4ae5fdcfe345cfe3ca437/res/raw/keep_arcore.xml"
+    }
+]
