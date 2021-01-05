@@ -2,14 +2,13 @@ package com.unity.mynativeapp;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.os.Process;
 import android.view.View;
 import android.widget.Button;
 import android.widget.FrameLayout;
 
-import com.company.product.OverrideUnityActivity;
+import com.unity3d.player.UnityPlayerActivity;
 
-public class MainUnityActivity extends OverrideUnityActivity {
+public class MainUnityActivity extends UnityPlayerActivity {
     // Setup activity layout
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,7 +34,6 @@ public class MainUnityActivity extends OverrideUnityActivity {
             }
     }
 
-    @Override
     protected void showMainActivity(String setToColor) {
         Intent intent = new Intent(this, MainActivity.class);
         intent.setFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT | Intent.FLAG_ACTIVITY_SINGLE_TOP);

@@ -1,0 +1,30 @@
+{
+    "$schema": "https://docs.visionlib.com/v20.3.1/vl.schema.json",
+    "type": "VisionLibTrackerConfig",
+    "version": 1,
+    "meta": {
+        "name": "Simple Visionlib Car Tracker",
+        "description": "Simple model tracking tracking configuration file",
+        "author": "VisionLib"
+    },
+    "tracker": {
+        "type": "modelTracker",
+        "version": 1,
+        "parameters": {
+            "modelURI": "project_dir:VLMiniCar.obj",
+            "useColor": true,
+            "metric": "m",
+            "keyFrameDistance": 30,
+            "laplaceThreshold": 1,
+            "normalThreshold": 0.3,
+            "lineGradientThreshold": 50,
+            "minInlierRatioInit": 0.7,
+            "minInlierRatioTracking": 0.65,
+            "lineSearchLengthInitRelative": 0.05,
+            "lineSearchLengthTrackingRelative": 0.03125,
+            "showLineModel": true,
+            "showLineModelLost": false,
+            "autoInit": true
+        }
+    }
+}
