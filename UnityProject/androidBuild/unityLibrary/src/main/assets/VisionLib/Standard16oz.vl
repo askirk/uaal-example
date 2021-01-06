@@ -1,0 +1,38 @@
+{
+    "$schema":"https://docs.visionlib.com/v20.6.1/vl.schema.json",
+    "type": "VisionLibTrackerConfig",
+    "version": 1,
+    "meta": {
+        "name": "Red Bull Can Tracker",
+        "description": "Tracks a Red Bull can",
+        "author": "Red Bull"
+    },
+    "tracker": {
+        "type": "modelTracker",
+        "version": 1,
+        "parameters": {
+			"metaioModelURI": "project_dir:/RBCan16oz.obj",
+			"metaioLineModelURI": "project_dir:/StandardCanEdge_16oz.obj",
+            "useColor": true,
+            "metric": "cm",
+            "initPose": {
+              "type": "visionlib",
+              "t": [ 0.17381513118743897, 8.211618423461914, 34.054325103759769 ],
+              "q": [ 0.9853678941726685, 0.0007375052664428949, -0.004265101160854101, -0.17038613557815553 ]
+            },
+            "showLineModel":false,
+            "showLineModelLost":false,
+            "keyFrameDistance": 5,
+            "laplaceThreshold": 1,
+            "normalThreshold": 0.3,
+            "lineGradientThreshold": 30,
+            "minNumOfCorrespondences": 40,
+            "maxFramesFeaturePrediction":20,
+            "minInlierRatioInit": 0.70,
+            "minInlierRatioTracking": 0.6,
+            "extendibleTracking": false,
+            "lineSearchLengthInitRelative": 0.09,
+            "legacyCameraMode": true
+        }
+    }
+}

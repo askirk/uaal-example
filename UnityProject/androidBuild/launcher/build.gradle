@@ -7,7 +7,7 @@ dependencies {
     }
 
 android {
-    compileSdkVersion 28
+    compileSdkVersion 29
     buildToolsVersion '28.0.3'
 
     compileOptions {
@@ -16,18 +16,18 @@ android {
     }
 
     defaultConfig {
-        minSdkVersion 19
-        targetSdkVersion 28
-        applicationId 'com.DefaultCompany.DemoVizLib'
+        minSdkVersion 25
+        targetSdkVersion 29
+        applicationId 'com.redbull.immersive'
         ndk {
             abiFilters 'armeabi-v7a', 'arm64-v8a'
         }
         versionCode 1
-        versionName '0.1'
+        versionName '1.2.0'
     }
 
     aaptOptions {
-        noCompress = ['.unity3d', '.ress', '.resource', '.obb', 'visionlib/examples/cameracalibration/cameracalibration.vl', 'visionlib/examples/imagerecorder/hololensimagerecorder.vl', 'visionlib/examples/imagerecorder/imagerecorder.vl', 'visionlib/examples/modeltracking/advancedmodeltracking.vl', 'visionlib/examples/modeltracking/changemodeluri.vl', 'visionlib/examples/modeltracking/multimodeltracking.vl', 'visionlib/examples/modeltracking/vlcaravan.obj', 'visionlib/examples/modeltracking/vlminicar.obj', 'visionlib/examples/modeltracking/vlsportscar.obj', 'visionlib/examples/modeltracking/car.vl', 'visionlib/examples/modeltracking/carautoinit.vl', 'visionlib/examples/modeltracking/carhololens.vl', 'visionlib/examples/modeltracking/dynamicmodeltracking/hololens_noobject.vl', 'visionlib/examples/modeltracking/dynamicmodeltracking/noobject.vl', 'visionlib/examples/modeltracking/mutablemodeltracking/piece000.obj', 'visionlib/examples/modeltracking/mutablemodeltracking/piece001.obj', 'visionlib/examples/modeltracking/mutablemodeltracking/piece002.obj', 'visionlib/examples/modeltracking/mutablemodeltracking/piece003.obj', 'visionlib/examples/modeltracking/mutablemodeltracking/pieces.vl', 'visionlib/examples/postertracking/hololenspostertracker.vl', 'visionlib/examples/postertracking/leaves.png', 'visionlib/examples/postertracking/postertracker.vl']
+        noCompress = ['.unity3d', '.ress', '.resource', '.obb', 'visionlib/rbcan12oz.obj', 'visionlib/rbcan8oz.obj', 'visionlib/winter12oz.vl', 'visionlib/winter8oz.vl', 'visionlib/wintercan12ozedge.mtl', 'visionlib/wintercan12ozedge.obj', 'visionlib/wintercan8ozedge.mtl', 'visionlib/wintercan8ozedge.obj', 'visionlib/developerlicense.xml', 'visionlib/distributionlicense.xml', 'visionlib/standardcanedge.obj', 'visionlib/pack12smalledge.obj', 'visionlib/pack12smallnonchiral.mtl', 'visionlib/pack12smallpoly.mtl', 'visionlib/pack12smallpoly.obj', 'visionlib/pack4smalledge.obj', 'visionlib/pack4smallpoly.obj', 'visionlib/standardcanedge_12oz.obj', 'visionlib/standardcanedge_8oz.obj', 'visionlib/pack12small.vl', 'visionlib/pack12smallnonchiral.obj', 'visionlib/pack4smallnonchiral.obj', 'visionlib/mm_standard8oz.vl', 'visionlib/pack4small.vl', 'visionlib/standard16oz.vl', 'visionlib/standard8oz.vl', 'android/courseparts', 'ios/courseparts', 'aa/catalog.json', 'aa/settings.json', 'aa/buildlogs.json', 'aa/android/defaultlocalgroup_unitybuiltinshaders_f4a663b838ccda5a8250f06f5f7ef2b6.bundle', 'aa/addressableslink/link.xml']
         ignoreAssetsPattern = "!.svn:!.git:!.ds_store:!*.scc:.*:!CVS:!thumbs.db:!picasa.ini:!*~"
     }
 

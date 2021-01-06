@@ -5,9 +5,10 @@ apply plugin: 'com.android.library'
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation(name: 'arcore_client', ext:'aar')
     implementation(name: 'google_ar_optional', ext:'aar')
     implementation(name: 'vlsdk', ext:'aar')
+    implementation(name: 'UniWebView', ext:'aar')
+    implementation(name: 'arcore_client', ext:'aar')
 }
 
 android {
@@ -26,7 +27,7 @@ android {
             abiFilters 'armeabi-v7a', 'arm64-v8a'
         }
         versionCode 1
-        versionName '0.1'
+        versionName '1.2.0'
         consumerProguardFiles 'proguard-unity.txt'
     }
 
